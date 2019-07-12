@@ -54,6 +54,10 @@ p, li, .description{
   margin: 0;
   position: relative;
 }
+#About #Portfolio #Resume #Contact{
+  margin-top: -40px;
+  padding-top: 60px;
+}
 @keyframes fadeIn {
   0%   {opacity: 0;}
   25%  {opacity: .25;}
