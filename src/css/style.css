@@ -19,6 +19,10 @@ p, li, .description{
  .sidebar-collapse .navbar-collapse::before{
      background: linear-gradient(#b2a37d,#131313 80%);
  }
+ .navbar-dark .navbar-toggler{
+ border: none;
+ 
+}
 .profile{
   position: relative;
 } 
