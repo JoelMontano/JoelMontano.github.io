@@ -21,13 +21,18 @@ p, li, .description{
  }
 .profile{
   position: relative;
-  top: 0;
-  left: 0;
 } 
+.profile.header{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .propic{
   position: absolute;
-  bottom: 700px;
-  left: 850px;
+  top: 13%;
+  left: 40%;
+  height: auto;
+  width: 10%;
   border-radius: 50%;
   border: 2px solid grey;
 }
@@ -38,10 +43,12 @@ p, li, .description{
 .brand .h1-seo{
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  position: relative;
 }
 
 .brand h3{
   margin: 0;
+  position: relative;
 }
 @keyframes fadeIn {
   0%   {opacity: 0;}
