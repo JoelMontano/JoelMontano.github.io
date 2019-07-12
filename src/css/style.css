@@ -54,7 +54,19 @@ p, li, .description{
   margin: 0;
   position: relative;
 }
-#About #Portfolio #Resume #Contact{
+#About{
+  margin-top: -40px;
+  padding-top: 60px;
+}
+#Resume{
+  margin-top: -40px;
+  padding-top: 60px;
+}
+#Portfolio{
+  margin-top: -40px;
+  padding-top: 60px;
+}
+#Contact{
   margin-top: -40px;
   padding-top: 60px;
 }
