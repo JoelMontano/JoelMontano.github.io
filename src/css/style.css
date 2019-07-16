@@ -21,24 +21,21 @@ p, li, .description{
  }
  .navbar-dark .navbar-toggler{
  border: none;
- 
+ }
+ #box{
+   position: relative;
+ }
+ .team{
+  padding: 1rem;
 }
-.profile{
-  position: relative;
-} 
-.profile.header{
-  display: block;
-  width: 100%;
-  height: auto;
+
+.cto{
+  background: #131313;
+
 }
-.propic{
-  position: absolute;
-  top: 13%;
-  left: 40%;
-  height: auto;
-  width: 10%;
-  border-radius: 50%;
-  border: 2px solid grey;
+.team-player .title, .team-player .description{
+  color: #fff;
+}
 }
 .brand{
   animation-name: fadeIn;
